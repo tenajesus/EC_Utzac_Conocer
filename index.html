@@ -11,13 +11,28 @@
  	</div>
  </div>
  <div class="intro">
-  <center><img src="img/conocer.png" width="250" height="250"></center>
+  <center>
+    <div class="col-sm-6 col-md-1"></div>
+    <div class="row">
+    <div class="col-sm-6 col-md-3">
+    <img src="img/conocer.png" width="320" height="80">  
+    </div>
+    <div class="col-sm-6 col-md-1"></div>
+    <div class="col-sm-6 col-md-3">
+    <img src="img/utzac.png" width="150" height="150">  
+    </div>
+    <div class="col-sm-6 col-md-3">
+    <img src="img/vinculación.jpg" width="240" height="100" >  
+    </div>
+    <div class="col-sm-6 col-md-1"></div>
+    </div>
+  </center>
   <h3 style="text-align:center;"><br></h3>
-  <p>La Universidad Tecnológica del Estado de Zacatecas como Centro Evaluador y por conducto del CONOCER invita a toda la
+  <p><b>La Universidad Tecnológica del Estado de Zacatecas como Entidad de Certificación y Evaluación invita a toda la
    Comunidad Universitaria a obtener las certificaciones: EC0107 (Manejo de procesador de textos digitales) , EC0108 (Manejo del procesador de hojas de cálculo digitales) y EC0109 (Manejo de procesadores de presentaciones digitales.)
   <br><br>Los cuales sirven como referente para la evaluación y certificación de las personas que se desempeñan en
 diversas funciones en los ámbitos productivos, laborales y de educación que utilizan herramientas
-de cómputo que requiere y complementa su función.
+de cómputo que requiere y complementa su función.</b>
   </p>
 </div>
 <div style="position:relative;">
@@ -49,12 +64,44 @@ digitales.
  	</div>
 </div>
 <div class="middle">
-  <div class="contenido">
+  <div class="contenidocost">
     <p>
-    <span class="borderst">COSTO ESTUDIANTES UTZAC</span>
-    <span class="borderst">$200.00</span>
+    <span class="borderst">COSTO ESTUDIANTES Y EGRESADOS UTZAC<br><br></span>
+    <span class="borderst"><b>$1000.00</b> <br><br> (incluye curso de capacitación en linea y Demo)</span>
 	</p>
+  <div class="row">
+    <br>
+    <div class="col-sm-6 col-md-3"></div>
+   <div class="col-sm-6 col-md-2">
+    <!-- <div class="thumbnail"> -->
+       <div class="caption">
+        <center><h1><span class="glyphicon glyphicon-ok fok"></span></h1>
+        <h3><span class="label label-success">E0107</span></h3>
+        </center>
+      </div>
+    <!-- </div> -->
   </div>
+  <div class="col-sm-6 col-md-2">
+    <!-- <div class="thumbnail"> -->
+      <div class="caption">
+        <center><h1><span class="glyphicon glyphicon-ok fok"></span></h1>
+        <h3><span class="label label-success">E0108</span></h3>
+      </div>
+    <!-- </div> -->
+  </div>
+  <div class="col-sm-6 col-md-2">
+    <!-- <div class="thumbnail"> -->
+      <div class="caption">
+        <center><h1><span class="glyphicon glyphicon-ok fok"></span></h1>
+        <h3><span class="label label-success">E0109</span></h3>
+      </div>
+    <!-- </div> -->
+    </div>
+   </div>
+<div class="col-sm-6 col-md-3"></div>
+
+  </div>
+
 </div>
 <div class="foot">
 	<div class="contenido">
@@ -67,13 +114,14 @@ digitales.
    <div class="col-sm-6">
    TAE. Rafael Alejandro Triana Nuñez
    <br> Director de Vinculación - rtriana@utzac.edu.mx
-   <span class="glyphicon glyphicon-envelope gmail" aria-hidden="true"></span>
    </div>
   <div class="col-sm-6">
    ITIC. Laura Janet Padilla Castañon
    <br> Enlace CONOCER - lpadilla@utzac.edu.mx
-   <span class="glyphicon glyphicon-envelope gmail" aria-hidden="true"></span>
    </div>
+  </div>
+  <div class="contenido">
+    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalinfo">Mayores Informes</button>
   </div>
 </div>
 <!-- Modal -->
@@ -84,37 +132,59 @@ digitales.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Ingresa los datos solicitados</h4>
+        <h4 class="modal-title"><center><b>Ingresa los datos correctamente, te contactaremos</center></b></h4>
       </div>
       <div class="modal-body">
         <p>
         <form action="#">
   <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" class="form-control" id="email" disabled>
+    <label for="name">Nombre:</label>
+    <input type="text" class="form-control" id="name">
+  </div>        
+  <div class="form-group">
+    <label for="curp">CURP:</label>
+    <input type="text" class="form-control" id="curp">
   </div>
   <div class="form-group">
-    <label for="email">Nombre:</label>
-    <input type="text" class="form-control" id="email" disabled>
+    <label for="cuatri">Cuatrimestre:</label>
+    <input type="number" class="form-control" id="cuatri">
   </div>
   <div class="form-group">
-    <label for="email">Grupo:</label>
-    <input type="text" class="form-control" id="email" disabled>
+    <label for="grupo">Grupo:</label>
+    <input type="text" class="form-control" id="grupo">
   </div>
   <div class="form-group">
-    <label for="email">Carrera:</label>
-    <input type="text" class="form-control" id="email" disabled>
+    <label for="carrera">Carrera:</label>
+    <input type="text" class="form-control" id="grupo">
   </div>
-  
-  <button type="submit" class="btn btn-success" disabled>Enviar Datos</button>
-</form>	
-
-        </p>
+     </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-success" disabled>Enviar Datos</button>
+  </form>
       </div>
     </div>
+  </div>
+ </div>
+ <!-- ModalINFO -->
+<div id="modalinfo" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Datos de Contacto</h4>
+      </div>
+      <div class="modal-body">
+        <p>Aqui van los datos de mayores informes</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+
   </div>
 </div>
 </body>
