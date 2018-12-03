@@ -1,8 +1,5 @@
 body,html{
 height: 100%;
-width: auto;
-margin:0;
-color:gray;
 }
 .contenido {
   position: absolute;
@@ -17,7 +14,7 @@ color:gray;
   position: absolute;
   left: 0;
   top: 20%;
-  width: 100%;
+  width: 95%;
   text-align: center;
   color: #000;
 }
@@ -50,12 +47,13 @@ color:gray;
 }
 
 .contenido span.border {
-  background-color: #911;
+  background-color: green;
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
   font-family: 'Kodchasan', sans-serif;
+  border-radius: 4px;
 }
 .contenidocost span.borderst {
   background-color: green;
@@ -64,7 +62,6 @@ color:gray;
   font-size: 25px;
   letter-spacing: 10px;
   font-family: 'Poiret One', bold;
-  /*padding: 15px;*/
 }
 
 .intro{
@@ -73,9 +70,9 @@ color:gray;
 	text-align:center;
 	padding:50px 80px;
 	text-align: justify;
-  	font-family: 'Poiret One', bold;
-  	font-size: 20px;
-  	/*border:2px solid red;*/
+  font-family: 'Poiret One', bold;
+  font-size: 20px;
+  
 }
 .estandar{
 	
@@ -83,9 +80,8 @@ color:gray;
 	text-align:center;
 	padding:50px 80px;
 	text-align: justify;
-  	font-family: 'Raleway', sans-serif;
-  	font-size: 15px;
-  	/*border:2px solid red;*/
+ 	font-family: 'Raleway', sans-serif;
+ 	font-size: 15px;
 }
 .triana{
 	color:#ddd;
@@ -93,8 +89,8 @@ color:gray;
 	text-align:center;
 	padding:50px 80px;
 	text-align: center;
-  	font-family: 'Poiret One', cursive;
-  	font-size: 25px;
+ 	font-family: 'Poiret One', cursive;
+ 	font-size: 25px;
 }
 .footer{
 	color:white;
@@ -102,14 +98,14 @@ color:gray;
 	text-align:center;
 	padding:50px 60px;
 	text-align: center;
-  	font-family: 'Poiret One', cursive;
-  	font-size: 18px;
+ 	font-family: 'Poiret One', cursive;
+ 	font-size: 18px;
 }
 .firma{
   	font-family: 'Kaushan Script', cursive;
   }
 /*.gmail{
-	color:green;
+	color:#e2540a;
 }*/
 .fok{
  color:red;
