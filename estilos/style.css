@@ -108,10 +108,17 @@ height: 100%;
 	color:#e2540a;
 }*/
 .fok{
- color:red;
- font-size: 70px; 
+ color:gray;
+ font-size: 20px; 
 }
-
+.ftel{
+ color:green;
+ font-size: 20px; 
+}
+.fmail{
+ color:red;
+ font-size: 20px; 
+}
 
 .text {
   display: block;
