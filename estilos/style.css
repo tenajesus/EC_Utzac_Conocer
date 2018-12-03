@@ -108,6 +108,10 @@ height: 100%;
 	color:#e2540a;
 }*/
 .fok{
+ color:red;
+ font-size: 70px; 
+}
+.fok2{
  color:gray;
  font-size: 20px; 
 }
