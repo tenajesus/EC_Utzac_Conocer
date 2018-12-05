@@ -110,7 +110,7 @@ digitales.
 </div>
 <div class="foot">
 	<div class="contenido">
-		<button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#inscribe">REGISTRARME A LAS CERTIFICACIONES</button>
+    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#inscribe">REGISTRARME A LAS CERTIFICACIONES</button>
 	</div>
 </div>
 <div style="position:relative;">
@@ -145,7 +145,7 @@ digitales.
       </div>
       <div class="modal-body">
         <p>
-        <form action="#">
+        <form id="registro">
   <div class="form-group">
     <label for="name">Nombre:</label>
     <input type="text" class="form-control" id="name">
@@ -164,18 +164,19 @@ digitales.
   </div>
   <div class="form-group">
     <label for="carrera">Carrera:</label>
-    <input type="text" class="form-control" id="grupo">
+    <input type="text" class="form-control" id="carrera">
   </div>
   <div class="form-group">
     <label for="email">Correo Electrónico:</label>
     <input type="email" class="form-control" id="mail">
   </div>
+  </form>
      </p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-        <button type="submit" class="btn btn-success" disabled>Enviar Datos</button>
-  </form>
+        <button type="button" id="cancelbtn" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+        <button class="btn btn-success" id="savebtn" onclick="save()">Enviar Datos</button>
+  
       </div>
     </div>
   </div>
@@ -220,6 +221,14 @@ Ejido Cieneguitas, Guadalupe, Zac C.P 98601</td>
   </div>
 </div>
 </body>
+
+<!-- Firebase -->
+<script src="js/firebase.js"></script>
+<script src="js/params.js"></script>
+<!-- Sweet Alert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.29.2/dist/sweetalert2.min.js"></script>
+<!-- Estilos -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.29.2/dist/sweetalert2.min.css">
 <link rel="stylesheet" href="estilos/style.css">
 <link href="https://fonts.googleapis.com/css?family=Poiret+One|Kaushan+Script|Raleway" rel="stylesheet">
 <!-- Latest compiled and minified CSS -->
