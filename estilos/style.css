@@ -101,6 +101,15 @@ a:visited{
  	font-family: 'Poiret One', cursive;
  	font-size: 25px;
 }
+.infografias{
+	color:#ddd;
+	background-color:rgb(119, 161, 84);
+	text-align:center;
+	padding:50px 80px;
+	text-align: center;
+ 	font-family: 'Poiret One', cursive;
+ 	font-size: 15px;
+}
 .footer{
 	color:white;
 	background-color:#282E34;
@@ -144,6 +153,12 @@ a:visited{
   white-space: nowrap;
   opacity: .25;
   animation: pulse 1s linear alternate infinite;
+}
+
+.title{
+font-size: 30px;
+margin-bottom: 100px;
+font-weight: bold;
 }
 
 @keyframes pulse {
